@@ -1,0 +1,38 @@
+{
+  "name": "emailextractor",
+  "version": "0.0.1",
+  "description": "Extract email accounts from files, texts or websites.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/* "
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellaurindo/emailextractor.git"
+  },
+  "keywords": [
+    "accounts",
+    "csv",
+    "email",
+    "extractor",
+    "files",
+    "gmail",
+    "outlook",
+    "txt",
+    "yahoo"
+  ],
+  "author": "Rafael Laurindo <https://rafaellaurindo.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaellaurindo/emailextractor/issues"
+  },
+  "homepage": "https://github.com/rafaellaurindo/emailextractor#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "prettier": "^1.16.4",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}
